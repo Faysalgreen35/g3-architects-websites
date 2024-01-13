@@ -284,11 +284,21 @@ footer p {
 /* tablet divices */
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  header {
+  header,
+  .Sponspors-container,
+  .some-facts-container,
+  .teams-img-container,
+  .feature-container,
+  .teams-container {
     padding: 50px;
+    margin: 0 auto;
   }
 
-  nav {
+  nav,
+  .some-facts-img,
+  .Sponspors-img,
+  .teams-container,
+  .feature-container {
     flex-direction: column;
   }
 }
